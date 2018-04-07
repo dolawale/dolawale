@@ -1,0 +1,120 @@
+html, body {
+	margin: 0;
+	font-family: 'Rammetto', cursive;
+	text-align: center;
+	background-color: blue;
+
+}
+
+p {
+	/*TODO: Change the color of paragraph texts*/
+	color: pink;
+}
+@keyframe rainbow {
+	0% {background-color: red;}
+	14% {background-color:orange;}
+	28% {background-color: yellow;}
+	42% {background-color: green;}
+	56% {background-color: blue;}
+	70% {background-color: purple;}
+	80% {background-color: black;}
+}
+#blue {
+	animation-name: rainbow;
+	animation-duration: 10s;
+	background-color: #e5ffff
+	
+
+.dropdown
+{
+	position: relative;
+	display: block;
+}
+
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color: black;
+}
+
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+
+.dropdown-content a
+{
+	color: black;
+	padding: 12px 16px
+}
+
+h1 {
+	/*TODO: Change the color of h1 text*/
+	color:red ;
+}
+
+img {
+	border-radius: 25px;
+	height: 500px;
+	width: 500px;
+}
+
+.brown {
+	/*TODO: Change the color of text to brown*/
+}
+
+#page-wrapper {
+	padding: 0 10% 0 10%;
+}
+
+#page-wrapper > * {
+	padding: 50px;
+	margin: auto;
+	height: auto;
+}
+
+
+#blue {
+	/*TODO: Change the background color to blue*/
+}
+
+#doubleyellow {
+	display: inline-block;
+	/*TODO: Change the background color to yellow*/
+}
+
+#doubleyellow > img  {
+	width: 45%;
+	margin: 0 20px 0 20px;
+}
+
+#green {
+	/*TODO: Change the backgrond color to green*/
+}
+
+#yellow {
+	/*TODO: Change the background color to yellow*/
+}
+
+#white {
+	/*TODO: Change the background color to white*/
+}
+
+#white > img {
+	width: 30.3%;
+}
+
+#content_holder {
+	display: inline-block;
+	/*TODO:; change the background color to green*/
+}
+
+.content {
+	width: 44.5%;
+	float: left;
+	margin: 2%;
+	border: 1px dashed orange;
+	padding: 5px;
+	background-color: #f0f0f0;
+}

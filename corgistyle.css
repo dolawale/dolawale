@@ -1,0 +1,8 @@
+h1{                             //this is the styling for our text in h1 section
+  color:lightblue;
+  text-align: center;
+}
+
+body{                       // this is the styling for our body which has the images in this section
+    background-color :blue;
+}
